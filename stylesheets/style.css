@@ -3,6 +3,7 @@ body {
   color: #072833;
   margin: 0;
   font-family: Arial, sans-serif;
+  text-align: right;
 }
 header {
   background-color: #154134;
@@ -81,4 +82,66 @@ nav ul li a:hover {
   .banner-content p {
     font-size: 1rem;
   }
+}
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #0c3c4c;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+h3 {
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-color: #0c3c4c;
+  font-size: 35px;
+  font-family: "Times New Roman", Times, serif;
+}
+p {
+  text-align: left;
+  text-decoration-color: #0c3c4c;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+}
+.overview {
+  width: 40%;
+  margin: left;
+  text-align: center;
+}
+.overview h3 {
+  margin-bottom: 10px;
+}
+.overview-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.overview-text {
+  width: 50%;
+}
+.overview-container img {
+  width: 800px;
+  align-items: auto;
+}
+.content-box {
+  display: flex;
+  justify-content: center;
+  gap: 20x;
+  margin-bottom: 40px;
+}
+.content-text {
+  margin: 0 25px;
+}
+.content-image {
+  width: 400px;
+  border: 3px solid #072833;
+  border-radius: 15px;
+}
+
+.content-text {
+  width: 60%;
+}
+
+#wider-image {
+  width: 800px;
 }
