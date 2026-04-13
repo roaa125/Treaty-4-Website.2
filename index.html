@@ -1,9 +1,9 @@
 <!--
   Name: Roaa Elrefai
-  Course: Web Development
-  Teacher: Mr.Hardman
+  Course: Web Development II
+  Teacher: Mr. Hardman
   School: Pembin Trails colligete 
-  Date Last Modified: 13 / 3 / 26
+  Date Last Modified: 9 / 4 / 26
 -->
 
 <!doctype html>
@@ -16,26 +16,37 @@
   </head>
   <body>
     <header>
-      <img
-        src="images/image-removebg-preview.png"
-        alt="Illustrated logo showing a sunrise over water and hills with land on both sides, symbolizing the Treaty 4 territory and connection to the land and nature."
-        class="logo" />
-      <nav>
-        <ul style="list-style: none">
-          <li><a href="index.html">HOMEPAGE</a></li>
-          <li><a href="#">EXPECTATIONS VS. REALITY</a></li>
-          <li><a href="#">MODERN TREATY 4</a></li>
-        </ul>
-      </nav>
-      <h1>Treaty 4</h1>
-    </header>
-    <main>
-      <section class="banner video-banner">
-        <video autoplay muted loop playsinline>
+      <section>
+        <img
+          src="images/image-removebg-preview.png"
+          alt="Illustrated logo showing a sunrise over water and hills with land on both sides, symbolizing the Treaty 4 territory and connection to the land and nature."
+          id="logo" />
+        <nav>
+          <ul style="list-style: none">
+            <li><a href="index.html">HOMEPAGE</a></li>
+            <li>
+              <a href="expectations-vs-reality.html"
+                >EXPECTATIONS VS. REALITY</a
+              >
+            </li>
+            <li><a href="#">MODERN TREATY 4</a></li>
+          </ul>
+        </nav>
+        <h1>Treaty 4</h1>
+      </section>
+      <section id="video-banner">
+        <video
+          autoplay
+          muted
+          loop
+          playsinline
+          aria-label="Treaty 4 Pow Wow Event">
           <source src="images/videoplayback.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </section>
+    </header>
+    <main>
       <h2>TREATY 4</h2>
       <section class="content-box">
         <div class="content-text">
@@ -127,8 +138,8 @@
           </p>
         </div>
       </section>
+      <a href="#top" id="back-to-top">Back to Top ↑</a>
     </main>
-    <a href="#top" class="back-to-top">Back to Top ↑</a>
     <footer>
       <p>
         &copy;2026 Roaa Elrefaie. All rights reserved. This website and its
