@@ -230,3 +230,53 @@ footer {
 p {
   font-size: clamp(1rem, 2vw, 1.25rem);
 }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  min-height: 100%;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  display: inline-block
+}
+
+h2 {
+  font-size: 50px;
+  background: #ff6a00;
+  background: linear-gradient(
+    to right,
+    #ff6a00,
+    #ee0979
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.inline-block {
+  max-width: 100%;
+  display: inline-block;
+}
+
+.page-wrapper {
+  z-index: 0;
+  position: relative;
+}
+
+.container {
+  width: 90vw;
+  max-width: 1360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.margin-bottom-medium
